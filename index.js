@@ -5,9 +5,9 @@ function calculimc(){
     let imc=weight /(size*size);
     document.getElementById("result").innerHTML = imc;
     if ( imc<18.5 ){
-        advise.textContent ='vous ête en inssufisance pondérale';
-        advise.style.background = 'red';
-        advise.style.color = 'white' ;
+        advise.textContent ='vous ête en inssufisance pondérale!!!';
+        
+        advise.style.color = 'red' ;
   }
   else if ( imc<25 ){
     advise.textContent ='vous avez une corpulance normale';
